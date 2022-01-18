@@ -41,7 +41,7 @@ function mouseClicked() {
             alice.style.display = 'block';
             cinematic = 3;
             chat.html('Finn: Holy shi-');
-        }, 160000);
+        }, 15000);
 
     }
 

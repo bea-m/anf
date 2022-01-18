@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Autumn & Finnie</title>
+    <link rel="shortcut icon" type="image/png" href="media/icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="chatt">
+    
+    <div >
+        <video height="700" width="1600" muted autoplay loop id="start">
+            <source src="media/play.mp4" type="video/mp4">
+            </source>
+        </video>
+    </div>
+
+    <div>
+        <img src="media/alice-scena.png" alt="alice-scena" id="alice" height="700" width="1600" usemap="#findingclues">
+        <img src="media/letter-clue.png" alt="letter" id="letter-clue" height="700" width="1600" onclick="hide()">
+    </div>
+
+    <div id="chat">
+      
+    </div>
+   <div class="bumbac">
+    <button class="btn" id="btn1">Sorry not sorry, but hell no</button>
+    <button class="btn" id="btn2">Okay i guess?</button>
+</div>
+    <map name="findingclues">
+        <area shape="rect" coords="333, 369,357,425" alt="phone" id="phone">
+        <area shape="rect" coords="723, 477, 939, 537" alt="letter" id="letter">
+        <area shape="rect" coords="1220, 245, 1320, 307" alt="photo" id="photo">
+      </map>
+
+    <script src="p5.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+

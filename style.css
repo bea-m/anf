@@ -1,0 +1,37 @@
+img {
+ display: none;
+ margin-left: 140px;
+
+}
+
+body {
+    background-color: black;
+}
+
+#chat {
+margin-top: 0%;
+    color: white;
+font-size: xx-large;
+cursor: pointer;
+}
+
+.btn {
+ display: none;
+    margin-top: 15px;  
+    margin-left: 250px !important;
+width: 400px;
+height: 150px;
+font-size: xx-large;
+}
+
+
+#photo,#phone,#letter {
+cursor: pointer;
+
+}
+video {
+    margin-left: 140px;
+
+
+}
+

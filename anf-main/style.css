@@ -1,0 +1,48 @@
+img {
+    display: none;
+    margin-left: 140px;
+    margin-top: 50px;
+
+}
+
+body {
+    background-color: black;
+}
+
+#chat {
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.btn {
+    display: none;
+    margin-top: 15px;  
+    margin-left: 250px !important;
+width: 400px;
+height: 150px;
+font-size: xx-large;
+}
+
+
+#photo,#phone,#letter {
+cursor: pointer;
+
+}
+video {
+    margin-left: 140px;
+
+
+}
+
+p {
+    max-width: 400px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    font-size: x-large;
+}
+
